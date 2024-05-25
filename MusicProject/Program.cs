@@ -19,5 +19,8 @@ song3.duration = 275;
 song3.available = true;
 
 song1.ShowTrackDetails();
+song1.ShowNameArtist();
 song2.ShowTrackDetails();
+song2.ShowNameArtist();
 song3.ShowTrackDetails();
+song3.ShowNameArtist();

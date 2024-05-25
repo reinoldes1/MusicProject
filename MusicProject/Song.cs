@@ -14,4 +14,9 @@
         else Console.WriteLine("Not available to listen at the moment");
         Console.WriteLine("\n");
     }
+
+    public void ShowNameArtist()
+    {
+        Console.WriteLine($"{name} - {artist}\n");
+    }
 }
