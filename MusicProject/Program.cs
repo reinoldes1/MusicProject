@@ -19,8 +19,5 @@ song3.duration = 275;
 song3.available = true;
 
 song1.ShowTrackDetails();
-Console.WriteLine("\n");
 song2.ShowTrackDetails();
-Console.WriteLine("\n");
 song3.ShowTrackDetails();
-Console.WriteLine("\n");

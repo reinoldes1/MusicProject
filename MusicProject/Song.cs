@@ -12,5 +12,6 @@
         Console.WriteLine($"Duration: {duration}");
         if (available) Console.WriteLine("Available to listen");
         else Console.WriteLine("Not available to listen at the moment");
+        Console.WriteLine("\n");
     }
 }
