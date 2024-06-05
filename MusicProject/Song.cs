@@ -2,10 +2,10 @@
 {
     public string Name {  get; set; }
     public string Artist { get; set; }
+    public string Album { get; set; }
     public int Duration { get; set; }
     public bool Available {  get; set; }
     public string ShortDescription => $"The song '{Name} by {Artist}' has {Duration} seconds";
-
     public void ShowTrackDetails()
     {
         Console.WriteLine($"Name: {Name}");
